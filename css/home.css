@@ -1,0 +1,305 @@
+body{
+	background:#57b3f9 !important;
+}
+
+.scene{
+	
+	background-repeat:no-repeat;
+	background-size: cover;
+	width: 100%;
+	
+}
+
+.scene-1{
+	background-image: url("/img/face/scene-1.jpg");
+	height:560px;
+}
+
+.scene-2{
+	background-image:url("/img/face/scene-2.jpeg");
+	height: 700px;
+	
+
+}
+
+.scene-3{
+	background-image: url("/img/face/scene-3.jpg");
+	height:710px;
+	
+}
+
+.scene-4{
+	height: 670px;
+	background: white;
+
+}
+
+.scene-4-header{
+	height:150px;
+	background: url("/img/face/scene-4.jpg") 0px -1990px;
+}
+
+.scene-5{
+	height:800px;
+	background-image:url("/img/face/scene-5.jpg");
+}
+
+.intro{
+	color:#1d384e;
+	font-weight: bold;
+	font-size:26px;
+	padding-top:40px;
+	background:rgba(255, 255, 255, 0.5);
+	margin-top:40px;
+	padding:30px;
+	border-radius: 10px;
+}
+
+
+.intro li{
+	padding:20px 0px;
+	font-family:"lobster" !important;
+	font-weight: 100;
+}
+
+
+.scroll-down>.fa-angle-double-down{
+	padding-top:20px;
+	color:white;
+	font-size:30px;
+} 
+
+.help-title{
+	border:2px solid white;
+	font-family: "arial";
+	color:none;
+	background:white;
+	border-radius: 5px;
+	height:70px;
+	line-height: 65px;
+	width:100%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top:50px;
+}
+
+.help-you li{
+	color:white;
+	font-size: 30px;
+	padding:35px 0px;
+	font-family: "lobster";
+}
+
+.help-you li:hover{
+	color:#ffeb3b;
+	transition: color 0.2s;
+	cursor: default;
+}
+
+.help-you{
+	margin-top:60px;
+	background:rgba(0,0,0,0.2);
+	padding:20px 0px;
+}
+
+.scroll-down{
+	height:100px;
+	line-height: 100px;
+	color:black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.method-title{
+	text-align: center;
+	font-family: "lobster";
+	border: 4px solid white;
+	border-radius: 70px;
+	color:white;
+	font-size: 30px;
+	height:70px;
+	width:600px;
+	line-height: 65px;
+	margin:0px auto;
+	margin-top:50px;
+}
+
+.method-item{
+	position:relative;
+	margin-top:50px;
+}
+
+.method-item .panel{
+	background:none !important;
+	color:white !important;
+	width: 360px;
+	border:2px white solid;
+	margin:0px auto;
+}
+
+.method-item .panel-heading{
+	background: white !important;
+	color:black !important;
+	font-size: 20px;
+	font-family: "lobster";
+}
+
+.method-item img{
+	position: absolute;
+	top:-35px;
+	left:-35px;
+	height:100px;
+	width:100px;
+}
+
+.method-item .panel-body p{
+	font-size: 16px;
+}
+
+.method-item a{
+	background:none !important;
+	border:3px solid white;
+	border-radius: 40px;
+	height:40px;
+	float:right;
+	line-height: 25px;
+	color:white !important;
+	font-size: 12px;
+}
+
+.method-item a:hover{
+	color:black !important;
+	background: white !important;
+	transition: background 0.2s ease-in-out;
+}
+
+.scene-4 .h1{
+	font-size: 40px;
+	color:#1365a7;
+	font-family: "lobster";
+}
+
+.tar{
+	position: relative;
+	background:#2196f3;
+	height:80px;
+	margin-top:50px;
+	display: block;
+}
+
+.tar #tar-arrow{
+	width:0px;
+	height:0px;
+	border:40px solid transparent;
+	border-right:40px solid white;
+	position: absolute;
+	right:0px;
+	top:0px;
+}
+
+.tar-img{
+	position: absolute;
+	left:-40px;
+	top: -10px;
+	height:100px;
+	width: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 50px;
+	background: white;
+	border: 4px solid #2196f3;
+	border-radius: 100px;
+	color:#2196f3;
+}
+
+.tar-content{
+	padding-left:70px;
+	color:white;
+}
+
+.tar-content .h2{
+	padding-top:10px !important;
+	margin-bottom: 5px !important;
+
+}
+
+.tar-content p{
+	padding-left:5px;
+	font-style: italic;
+}
+
+.join-us-1{
+	color:#af8652;
+	font-size: 41px;
+	margin:50px 0px;
+	margin-bottom: 60px;
+	display: block;
+	font-family:"lobster";
+}
+
+.join-us-2{
+	color:black;
+	font-size: 35px;
+	margin-bottom:60px;
+	font-weight: bold;
+	display: block;
+}
+
+.join-us-3{
+	color: white;
+	font-size: 52px;
+	font-family: "lobster";
+	display: block;
+}
+
+.signin{
+	background:rgba(0, 0, 0, 0.3) !important;
+	padding:20px 25px;
+	height:550px;
+}
+
+.signin .h2{
+	color:white !important;
+}
+
+.signin label{
+	color:white;
+	font-size: 18px;
+}
+
+.signin input{
+	background:none !important;
+	border: 2px solid white !important;
+	color:white !important;
+	height:40px;
+}
+
+.signin button{
+	color:white;
+	border:2px solid white;
+	background:none !important;
+	margin-top:20px;
+}
+
+.signin button:hover{
+	color:none !important;
+	background:white !important;
+	transition: background 0.2s ease-in-out;
+}
+
+
+#imgLOAD{
+	background: url('/img/face/loader.gif') 50% 50% no-repeat #00aeef;
+	background-size: 50% auto;
+	height:100%;
+	width:100%;
+	position: fixed;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+

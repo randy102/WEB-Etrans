@@ -1,0 +1,293 @@
+
+@font-face {
+	font-family:"lobster";
+	src: url('/fonts/VNF-Lobster.ttf');
+}
+
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: #1d384e;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+     background: -webkit-gradient(linear,left top,left bottom,color-stop(0.3, #77c4ff),color-stop(0.7, #2a81c3));
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+a:hover{
+	text-decoration: none !important;
+	cursor: pointer;
+}
+
+#WholePage{
+	width: 100%;
+}
+
+.main-menu{
+	height: 90px;
+	background:#1d384e;
+	  background: -webkit-gradient(linear,left top,left bottom,color-stop(0.3, #3a576f),color-stop(0.7, #1d384e));
+	padding-right:15px;
+	margin-bottom: 0px !important;
+	width: 100%;
+}
+
+.menu-small{
+	height: 65px;
+}
+
+.main-menu img{
+	height:65px;
+}
+
+.menu-small img{
+	height: 45px;
+}
+
+.menu-nav>li>a{
+	padding:35px 30px !important;
+	color:white;
+	font-weight:bold;
+	font-size: 20px;
+	font-family:arial;
+}
+
+.menu-small li a{
+	font-size: 20px;
+}
+
+.menu-small .menu-nav>li>a{
+	padding:23px 20px !important;
+	
+}
+
+.menu-small .menu_1{
+	top:96px;
+}
+
+.menu-nav>li>a:hover{
+	color:#2196f3;
+	background: none !important;
+	transition: all 0.2s ease-in;
+}
+
+footer{
+	padding-top:40px;
+	background:#1d384e;
+	margin-bottom: 0px !important;
+}
+
+footer li a{
+	text-decoration: none;
+	color:#b9b9b9;
+	display: block;
+	padding:10px 0px;
+	font-size: 18px;
+}
+
+footer li a:hover{
+	color:#57b3f9;
+}
+
+footer .foot-title{
+	color:#b9b9b9;
+	border-bottom: #2a4f6c solid 1px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+footer .social-footer i{
+	font-size:40px;
+	padding:0px 3px;
+	display: inline;
+	color: #57b3f9;
+}
+
+footer .social-footer i:hover{
+	color:#5485ab;
+}
+
+.menu-nav{
+	position: relative;
+}
+
+.menu-nav>li:hover .menu_1{
+	visibility:visible;
+	-webkit-transform: translate(0px,-30px);
+	-webkit-transition: all 0.4s;
+}
+
+.menu_1{
+	visibility:hidden;
+	position: absolute;
+	top:120px;
+	left:8px;
+	width:200px;
+	background:white;
+	z-index: 9999;
+	
+	
+}
+
+.menu_1 li{
+	border-bottom: dotted 1px #a3a3a3;
+}
+
+.menu_1 li a{
+	display: block;
+	text-decoration: none;
+	color:black;
+	padding:10px 18px;
+	font-size: 18px;
+	font-family: proxima;
+	position: relative;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.menu_1 li:last-child{
+	border-bottom:none;
+}
+
+.menu_1 li a:hover{
+	color:white;
+	background: #57b3f9;
+	transition: 0.2s all ease-in;
+}
+
+.menu_1>li:hover .menu_2{
+	visibility:visible;
+	-webkit-transform: translate(-30px,0px);
+	-webkit-transition: all 0.4s;
+}
+
+.menu_2{
+	visibility:hidden;
+	position: absolute;
+	top:0px;
+	left:230px;
+	width:200px;
+	background: white;
+	z-index: 9999;
+	
+}
+
+.menu_2 li{
+	border-bottom: dotted 1px #a3a3a3;
+}
+
+.menu_2 li a{
+	display: block;
+	text-decoration: none;
+	color:black;
+	padding:10px 18px;
+	font-size: 18px;
+	font-family: proxima;
+	position: relative;
+	white-space: nowrap;
+}
+
+.menu_2 li:last-child{
+	border-bottom:none;
+}
+
+.menu_2 li a:hover{
+	color:white;
+	background: #57b3f9;
+	transition: 0.2s all ease-in;
+}
+
+
+.views{
+	color:#b9b9b9;
+	font-size: 20px;
+	border: 1px #949494 solid;
+	border-radius: 10px;
+	padding:0px 10px;
+	
+}
+
+#goTop {
+	bottom: 60px;
+	right: 35px;
+	cursor: pointer;
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	font-size: 60px;
+	opacity: 0.5;
+	color:white;
+}
+
+#goTop:hover{
+	opacity: 1;
+}
+
+#loged{
+	padding:3px 20px;
+	background: #fbe4e4;
+	border-bottom: 5px solid #9e9e9e;
+	font-size:20px;
+	
+}
+
+#user{
+	background:white;
+	color: #57b3f9;
+	padding:0px !important;
+	height: 50px;
+	width: 100px;
+	line-height: 50px;
+	margin-right:10px;
+	margin-top:20px;
+	border-radius: 60px;
+}
+
+#user:hover{
+	background:#57b3f9 !important;
+	color:white;
+}
+
+.menu-small #user{
+	height:40px;
+	line-height: 40px;
+	width: 100px;
+	margin-top: 12px;
+}
+
+.loged>a{
+	background: none !important;
+	color:#57b3f9 !important;
+}
+
+.loged>a:hover{
+	background:none !important;
+	color:white !important;
+}
+
+.loged a{
+	cursor: pointer;
+}
+
+#log-error{
+	color:red;
+	margin-top:20px;
+}
+
+.or{
+	background:none !important;
+	color: #9e9e9e;
+	padding:0px !important;
+}
+
+.loged ul a{
+	font-size: 18px;
+	padding:5px 20px !important;
+}
+

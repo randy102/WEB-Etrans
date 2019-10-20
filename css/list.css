@@ -1,0 +1,163 @@
+a:hover{
+	text-decoration: none;
+}
+
+body{
+	
+}
+
+.main-title{
+	margin-bottom: 20px;
+	height:200px;
+	padding:25px 50px;
+	border-bottom: 2px solid #d6d6d6;
+	width: 100%;
+	background:;
+
+}
+
+.main-title h1{
+	display: block;
+	padding:15px 0px;
+	font-size: 80px;
+	font-family: angry;
+	white-space: nowrap;
+	color:white;
+}
+
+.circle-title{
+	height: 150px;
+	width: 150px;
+	border:1px solid #b7b7b7;
+	color:;
+	border-radius: 150px;
+	text-align: center;
+	line-height: 150px;
+	font-size: 100px;
+	margin:0px auto;
+	background:white;
+
+}
+
+.bg-trans{
+	background: #d9534f;
+}
+
+.bg-trans .circle-title{
+	color:#d9534f;
+}
+
+.bg-post{
+	background: #337ab7;
+}
+
+.bg-post .circle-title{
+	color:#337ab7;
+}
+
+.bg-story{
+	background: #5cb85c;
+}
+
+.bg-story .circle-title{
+	color:#5cb85c;
+}
+
+.bg-intro{
+	background: #9e60a8;
+}
+
+.bg-intro .circle-title{
+	color:#9e60a8;
+}
+
+.items{
+	margin:10px 0px;
+	
+}
+
+.item .date{
+	margin-top:5px;
+	font-style: italic;
+	color:#aaaaaa;
+}
+
+.item{
+	margin:25px 0px;
+	background:white;
+	padding:15px;
+	border:solid 3px #d9d9d9;
+	transition: all 0.5s;
+}
+
+.item:hover{
+	box-shadow: 0px 0px 12px 0px #c3c3c3;
+	transition: all 0.5s;
+	border:solid 3px #d1d1d1;
+}
+
+.item p{
+	height:40px;
+	padding-top:5px;
+	
+}
+
+.item .h3{
+	text-decoration: none;
+	font-family: optima;
+}
+
+.item img{
+	height:150px; 
+	width:200px;
+}
+
+.post-tags{
+	font-size: 20px;
+}
+
+.ads-right{
+	width: 100%;
+	height:800px;
+	border:1px solid #efefef;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 30px;
+	line-height:800px;
+
+}
+
+.sub-title{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px 50px;
+	margin-bottom: 20px;
+	color:white;
+	background: orange;
+	border-radius: 10px;
+	border-bottom: 5px solid #8f7950;
+	border-top: 5px solid #8f7950;
+	box-shadow: 0px 4px 5px #bfbfbf;
+}
+
+.author-item img{
+	min-width: 100%;
+	height: 190px;
+}
+
+.social-author-contact i{
+	font-size: 40px;
+	margin:0px 2px;
+}
+
+.social-author-contact{
+	border-top:#c1c1c1 1px solid;
+	padding-top:10px;
+}
+
+.author-item p{
+	height:200px;
+	text-align: justify;
+	color: #989898;
+}

@@ -1,0 +1,45 @@
+.form-sign{
+	height:650px;
+	margin:0px auto;
+	margin-top:70px;
+	border-top:10px solid orange;
+	background:white;
+	padding:10px 55px;
+	box-shadow: 0px 0px 5px 10px rgba(204, 204, 204, 0.5);
+}
+
+.form-log{
+	height: 450px;
+	border-top:10px solid #5bc0de;
+	margin-top:100px;
+}
+
+
+.form-sign h2{
+	text-align: center;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	font-size: 45px;
+	font-weight: bold;
+	color:orange;
+}
+
+.form-log h2{
+	color:#5bc0de;
+}
+
+.form-sign label{
+	font-size: 20px;
+	font-weight: bold;
+	color:#7e7e7e;
+}
+
+.form-sign button{
+	margin-top: 15px;
+}
+.form-sign input{
+	height:40px;
+	margin:10px 0px;
+	font-size: 18px;
+}
